@@ -12,12 +12,12 @@ import SignupBtn from "../SignupBtn";
 const Navbar = () => {
 	const loggedIn = false;
 	return (
-		<nav className="flex p-8 sticky top-0">
+		<nav className="flex pl-8 pr-8 pt-4 pb-4 sticky top-0 bg-slate-50 dark:bg-[#333] items-center">
 			<Link href="/" className="flex items-center gap-2 flex-1">
 				<Image src={logo} alt="GetURMovie Logo" width={32} />
 				<span className="text-xl font-bold">GetURMovie</span>
 			</Link>
-			<ul className="flex flex1">
+			<ul className="flex items-center">
 				<NavItem href="/top-charts" label="Top Charts" />
 				<NavItem href="/latest" label="Latest" />
 				<NavItem href="/all-movies" label="All Movies" />
