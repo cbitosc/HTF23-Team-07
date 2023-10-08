@@ -107,6 +107,12 @@ export default defineType({
       type: 'array',
       of: [{type: 'crewMember'}],
     }),
+    defineField({
+      name: 'reviews',
+      title: 'Reviews',
+      type: 'array',
+      of: [{type: 'review'}],
+    }),
   ],
   preview: {
     select: {

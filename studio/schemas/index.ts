@@ -5,6 +5,7 @@ import movie from './movie'
 import person from './person'
 import genre from './genre'
 import platform from './platform'
+import review from './review'
 
 export const schemaTypes = [
   // Document types
@@ -17,4 +18,5 @@ export const schemaTypes = [
   blockContent,
   castMember,
   crewMember,
+  review,
 ]
