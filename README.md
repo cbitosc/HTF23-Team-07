@@ -1,5 +1,9 @@
 # HTF23-Team-07
 
+## About
+
+GetURMovie project
+
 ## GitHub submission guide
 
 In this Readme, you will find a guide on how to fork this Repository, add files to it, and make a pull request to contribute your changes.
@@ -56,7 +60,7 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
    <li>Push changes to your fork </li>
    <code> git push origin branch-name </code>
    <hr>
-   
+
  <img src="/images/push.png">
 </ul>
 </details>
@@ -73,4 +77,4 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
 </ul>
 </details>
 
-## Thanks for participating!
+## Thanks for participating
